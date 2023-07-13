@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div.complete {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10%;
+        overflow: auto;
+      }
+
+      div.form {
+        height: 200px;
+      }
+
+      label {
+        margin: 20px;
+        display: block;
+        font-size: 32px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans";
+      }
+
+      input {
+        padding: 10px;
+      }
+      span {
+        color: red;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      button {
+        padding: 10px;
+        margin-top: 40px;
+        left: 50%;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans";
+      }
+
+      div#tables {
+        height: 300px;
+        overflow: auto;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid red;
+        border-collapse: collapse;
+        font-size: 32px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans";
+        padding: 10px;
+      }
+
+      th {
+        width: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="complete">
+      <div class="form">
+        <label>Name: <input id="name" type="text" /></label>
+        <label>Email: <input id="email" type="text" /></label>
+        <span id="error"></span>
+        <button onclick="publishToTable()">Submit</button>
+      </div>
+      <div id="tables">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>

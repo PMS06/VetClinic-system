@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="vet dashboard.css">
+
+<link
+rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous"
+/>
+  </head>
+  <body>
+   
+        <img src="image /Screen Shot 2023-01-30 at 14.47.45.png" alt="Logo"/>
+      <h1>PretendPet Paradise</h1>
+      <h2>Vet Dashboard</h2>
+      <nav>
+        <ul class="navigation-menu">
+          <li><a href="Upcoming appointments.html">Upcoming Appointments</a></li>
+          <li><a href="consultation history.html">Consultation History</a></li>
+          <li><a href="Registered_patients.html">Registered Patients</a></li>
+        
+        </ul>
+
+      </nav>
+  </header>
+      <div class="container">
+        <div class="img-container">
+            <img src="image /image1.png" class="active" alt="...">
+            <img src="image /image2.png" alt="...">
+            <img src="image /image3.png" alt="...">         
+        </div>
+</div>
+
+ <script>
+ // image slider //
+ const images = Array.from(document.querySelectorAll(".img-container img"));
+ const prev = document.querySelector(".prev");
+ const next = document.querySelector(".next");
+ let index = 0;
+ function nextSlide(){
+     images[index].classList.remove("active");
+ 
+     if(index === images.length - 1){
+         index = 0;
+         images[index].classList.add("active");
+     }
+     else{
+         index++;
+         images[index].classList.add("active");
+     }
+ }
+ setInterval(nextSlide,2000);
+</script>
+  </body>
+</html>

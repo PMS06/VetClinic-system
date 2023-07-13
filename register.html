@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <a href="receptionist_dashboard.html">
+      <img src="image /Screen Shot 2023-01-30 at 14.47.45.png" alt="Logo"
+    /></a>
+    <h1>PretendPet Paradise</h1>
+    <h2>Register</h2>
+    <nav>
+      <ul class="navigation-menu">
+        <li><a href="schedule appoinment.html">Schedule An Appointment</a></li>
+        <li><a href="Patient Check-in.html">Patient Check-in</a></li>
+        <li><a href="consultation history.html">Consultation History</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="Registered_patients.html">Registered Patients</a></li>
+      </ul>
+    </nav>
+    <div class="form-container">
+        <form id="form">
+            <div class="form-group">
+                <label for="firstName">Pet Owner's Name</label>
+                <input type="text" class="form-control" id="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Pet's Name</label>
+                <input type="text" class="form-control" id="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="animalType">Animal Type</label>
+                <input type="text" class="form-control" id="animal_type" required>
+            </div>
+            <div class="form-group">
+                <label for="breed">Breed</label>
+                <input type="text" class="form-control" id="breed" required>
+            </div>
+            <div class="form-group">
+          
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <select name="" id="Gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+           <div class="form-group">
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" class="form-control" id="phone-number" required>
+           </div>
+            <button type="submit" class="submit_button">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+      <h2 id="services" class="text-center my-4"></h2>
+      <ul id="consultations"class="list-group"></ul>
+  </div>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>

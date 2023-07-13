@@ -1,0 +1,63 @@
+img {
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+    width: 120px;
+    
+    }
+    
+ .navigation-menu {
+      list-style-type: none; 
+      display: flex; 
+      margin-left: -20px;
+    }
+    
+ .navigation-menu li {
+      margin-right: 20px; 
+      
+      
+    }
+    h2{
+        margin-left: 20px;
+        color: #313875;
+        font-family: Arial;
+          }
+      h1{
+        margin-left: 20px;
+        color: #313875;
+        font-family: Arial;
+      }
+      div p{
+          margin-left: 20px;
+      }
+      form {
+          margin-left: 20px;
+      }
+      .Fee{
+          margin-bottom: 12px;
+          font-family: Arial;
+      }
+      .fees{
+          padding: 5px ;
+          border-radius: 8px;
+          border-width: 0.5px;
+      }
+
+        
+
+        .submit_button:hover{
+            background-color:#fff;
+            color: #313875;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #313875;
+        }
+        .submit_button {
+            margin-top: 30px;
+            margin-left: 200px;
+            border: none;
+            padding: 13px 30px;
+            border-radius: 8px;
+            color: #fff;
+            background-color: #313875
+        }

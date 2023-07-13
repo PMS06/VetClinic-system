@@ -1,0 +1,92 @@
+img {
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+    width: 120px;
+    
+    }
+    
+    .navigation-menu {
+      list-style-type: none; 
+      display: flex; 
+      margin-left: -20px;
+    }
+    
+    .navigation-menu li {
+      margin-right: 20px; 
+      
+    }
+    
+    
+    #consultations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .patient-container {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 10px;
+      padding: 20px;
+      text-align: left;
+      width: 280px;
+      font-family: Arial;
+      font-size: 16px;
+      position: relative;
+      
+    
+    }
+    
+    .patient-container:hover {
+      transition: all 0.3s ease-in-out;
+      width: 300px;
+      height: 270px;
+    }
+    
+    .patient-container:hover .patient-buttons {
+      display: flex;
+    }
+    
+    .patient-buttons {
+      display: none;
+      justify-content: space-around;
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+    .check-in-button:hover, .delete-button:hover {
+      background-color: white;
+      color: #313875;
+      border-color: #313875;
+      border-width: 1px;
+      border-style: solid;
+    }
+    
+    .check-in-button , .delete-button{
+      font-family: Arial;
+      font-size: 15px;
+      border: none;
+      background-color: #313875;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+    }
+    
+    
+    h2{
+            margin-left: 20px;
+            color: #313875;
+            font-family: Arial;
+              }
+          h1{
+            margin-left: 20px;
+            color: #313875;
+            font-family: Arial;
+          }
+
+          .hidden{
+            display: none;
+          }

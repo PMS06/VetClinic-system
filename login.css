@@ -1,0 +1,111 @@
+  /*image decoration*/
+  .image1{
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50px;    
+      margin-top: 20px;
+
+  }
+  .afterdiv{
+    margin-top: 50px;
+  }
+  /* Add styles for the form container */
+  .form-container {
+    width: 450px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    
+    font-size: 15px;
+    height: 500px;   
+  }
+
+  /* Add styles for the form header */
+  .form-header {
+    font-family: Arial;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  /* Add styles for the form input fields */
+  .form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #bbb;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-left: 65px;   
+  }
+  .form-input2{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #bbb;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-left: 65px;
+    position: relative;
+    z-index: 0;
+  }
+
+  /* Add styles for the form submit button */
+  .Login_button{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .form-submit {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #313875;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-submit:hover{
+      background-color: white;
+      color: #313875;
+      border-color: #313875;
+      border-width: 1px;
+      border-style: solid;
+  }
+
+  /* Eye Icon */
+  #togglePassword {
+    position: absolute;
+    margin-left:350px;
+    margin-top: -49px;
+    z-index: 1;
+  }
+  
+  p{
+   font-family: Arial;
+  }
+
+  a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: rgb(174, 17, 59);
+  }

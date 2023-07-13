@@ -1,0 +1,51 @@
+h2{
+  margin-left: 20px;
+  color: #313875;
+  font-family: Arial;
+    }
+h1{
+  margin-left: 20px;
+  color: #313875;
+  font-family: Arial;
+}
+img {
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  width: 120px;
+  
+  }
+  
+  .navigation-menu {
+    list-style-type: none; 
+    display: flex; 
+    margin-left: -20px;
+  }
+  
+  .navigation-menu li {
+    margin-right: 20px; 
+    
+  }
+  
+.container .img-container{
+  width: 100% !important;
+  height: 700px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img-container img{
+  filter: drop-shadow(0 .5px 1px rgba(51, 51, 51, 0.5));
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .3s ease-in;
+}
+
+.img-container img.active{
+width: 100% !important;
+}
